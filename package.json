@@ -10,12 +10,12 @@
   "author": "Max Brunsfeld",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.14.0",
-    "prebuild-install": "^5.3.3"
+    "nan": "^2.16.0",
+    "prebuild-install": "^7.1.1"
   },
   "devDependencies": {
-    "prebuild": "^10.0.0",
-    "tree-sitter-cli": "^0.19.1"
+    "prebuild": "^11.0.3",
+    "tree-sitter-cli": "^0.20.6"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
